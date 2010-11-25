@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+		<string name="app_name">Coffegutchi</string>
+		
+        <string name="setup_user">Setup User</string>
+        <string name="setup_user_name_txt">Name</string>
+        <string name="setup_user_create_txt">Create User</string>
+
+        <string name="main_user">User:</string>
+
+</resources>

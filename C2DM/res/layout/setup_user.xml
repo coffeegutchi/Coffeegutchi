@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		>
+    <TextView
+        android:id="@+id/name_tag"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="@string/setup_user_name_txt" android:paddingLeft="10dp" android:paddingTop="30dp"/>    
+	<EditText android:id="@+id/user_name"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout_marginBottom="4dip"
+	    android:layout_marginLeft="5dp" android:layout_marginRight="5dp" 
+        android:layout_below="@id/name_tag"/>
+    <TextView
+        android:id="@+id/test_tag"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp" 
+        android:paddingTop="30dp" 
+        android:layout_below="@id/user_name"/>    
+        
+        
+	<Button
+        android:id="@+id/create_button"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/setup_user_create_txt"
+		android:onClick="createUser"
+        
+	android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:layout_alignParentBottom="true" android:layout_marginBottom="10dp"/>
+</RelativeLayout>

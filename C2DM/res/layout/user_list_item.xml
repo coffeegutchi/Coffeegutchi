@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:layout_weight="1"
+    android:minHeight="57.3dp" android:paddingTop="2.7dp"
+    android:paddingBottom="2.7dp">
+ 
+    <TextView android:id="@+id/list_item_online"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="26.6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" android:singleLine="true"
+        android:textSize="13.3dp" android:textStyle="bold"
+        android:textColor="#7FFFFFFF" android:text="hek1" />
+    <TextView android:id="@+id/list_item_name"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" android:gravity="center_vertical"
+        android:paddingRight="24dp" android:singleLine="true"
+        android:textSize="20dp" android:textColor="#FFFFFFFF"
+        android:typeface="sans" android:text="hek3" />
+         
+</RelativeLayout>
+</LinearLayout>
